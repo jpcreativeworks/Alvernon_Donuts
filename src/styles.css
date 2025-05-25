@@ -1,30 +1,37 @@
 body {
-  text-align: center;
   background-color: cornsilk;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  color: red
+h1, h2, h3, .centered-text {
+  text-align: center;
 }
 
 footer {
   background-color: red;
   color: white;
   display: block;
-  padding: 5px
+  padding: 5px;
 }
 
 a {
   color: white; 
-  padding: 0 5px;
-
 }
 
 img {
-  max-width: 800px;
   border-radius: 6px;
+  max-width: 100%;
 }
 
-.email {
-  color:red
+.navbar {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .container-fluid {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
