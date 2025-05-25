@@ -9,9 +9,22 @@ h1 {
 
 footer {
   background-color: red;
-  color: white
+  color: white;
+  display: block;
+  padding: 5px
 }
 
 a {
-  color: white
+  color: white; 
+  padding: 0 5px;
+
+}
+
+img {
+  max-width: 800px;
+  border-radius: 6px;
+}
+
+.email {
+  color:red
 }
