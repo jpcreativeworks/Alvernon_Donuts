@@ -40,7 +40,8 @@ img {
 
 .uniform-img {
   width: 100%;
-  height: 250px; 
+  height: 240px; 
+  aspect-ratio: 3 / 4;
   object-fit: cover;
   border-radius: 8px; 
 }
@@ -66,4 +67,11 @@ footer a:hover i,
   font-size: 1.2rem;
   font-weight: 400;
   color: #444;
+}
+
+@media (max-width: 767px) {
+  .uniform-img {
+    aspect-ratio: auto;
+    width: 100%;
+  }
 }
